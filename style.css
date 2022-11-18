@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #35353f;
+    font-family: 'Playball', cursive;
+    color: #45c398;
+    text-align: center;
+}
+
+#main {
+    margin: 4%;
+}
+
+#pWins {
+    font-size: 6rem;
+    margin-bottom: 1.5rem;
+}
+
+.winner {
+    border-radius: 2%;
+    /* border: 1px solid whitesmoke; */
+    border: none;
+    width: 30vw;
+    margin: 0 auto 0 auto;
+    font-size: 2rem;
+    padding: 10px 12px;
+    margin-left: 1%;
+}
+
+.winner:hover {
+    color: whitesmoke;
+    
+}
+
+.front{
+    display: flex;
+    width: 24vw;
+    margin: 0 auto 0 auto;
+    align-items: center;
+}
+
+
+.restart {
+    font-size: 2rem;
+}
+
+.restart:hover {
+    color: white;
+}
+
+#players {
+    width: 40%;
+    margin-left: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    font-size: 2rem;
+    margin: 1.5rem;
+}
+
+.btn {
+    padding: 10px 12px;
+    background-color: #35353f;
+    border: 1px solid whitesmoke;
+    border-radius: 6%;
+}
+
+img{
+    width: 80%;
+}
+/* media query */
+@media only screen and (max-width : 600px) {
+    
+    #main {
+        margin: 2%;
+    }
+    
+    #pWins {
+        font-size: 2rem;
+        margin: 0;
+    }
+    
+    .winner {
+        font-size: 1.8rem;
+        width: 100vw;
+    }
+    
+    .winner:hover {
+        color: whitesmoke;
+    }
+    
+    .front{
+        display: flex;
+        width: 60vw;
+        margin: 0 auto 0 auto;
+        align-items: center;
+    }
+    
+    
+    .restart {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    
+    
+    
+    #players {
+        display: flex;
+        flex-direction: column;
+    }
+
+    img{
+        width: 80%;
+    }
+    
+    p {
+        margin : 4% 0 3% 0;
+        font-size: 1.8rem;
+    }
+}

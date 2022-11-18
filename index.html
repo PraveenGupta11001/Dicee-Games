@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Dice</title>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/fcc955ea75.js" crossorigin="anonymous"></script>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Asul&family=Merriweather+Sans&family=Montserrat:wght@300&family=Pacifico&family=Playball&family=Ubuntu&display=swap" rel="stylesheet">
+
+
+
+    <!-- style -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="main">
+        <h1 id="pWins"><i class="fa-sharp fa-solid fa-dice"></i> Play Game</h1>
+        <div class="front">
+            <div class="restart" onclick="reStart()">
+                <i class="fa-sharp fa-solid fa-arrow-rotate-right"></i>
+            </div>
+            <div class="winner" onclick="start()">START GAME</div>
+        </div>
+        <div id="players">
+            <div class="player1">
+                <p>player 1</p>
+                <img alt="player1" onclick="rollDice1()">
+            </div>
+            <div class="player2">
+                <p>player 2</p>
+                <img alt="player2" onclick="rollDice2()">
+            </div>
+        </div>
+        <p>The Dice Game By<br>Praveen Gupta</p>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
