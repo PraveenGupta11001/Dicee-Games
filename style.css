@@ -82,7 +82,7 @@ img{
     }
     
     #pWins {
-        font-size: 2rem;
+        font-size: 4rem;
         margin: 0;
     }
     
@@ -120,7 +120,7 @@ img{
     }
     
     p {
-        margin : 4% 0 3% 0;
-        font-size: 1.8rem;
+        margin : 6% 0 5% 0;
+        font-size: 2rem;
     }
 }
